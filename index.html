@@ -30,86 +30,141 @@
 	<body>
 		<header id="inicio">
 			<div class="navbar-fixed">
-				<nav
-					class="navbar sticky-top"
-					style="background-color: #1565c0; height: min-content"
-					id="navbar-example2"
-				>
-					<div class="container-fluid">
-						<a class="navbar-brand" href="index.html">
-							<img
-								src="assets/img/logo.png"
-								alt="cglimaHome"
-								width="230"
-								height="70"
-							/>
-						</a>
-						<ul class="nav nav-tabs">
-							<li class="nav-item">
-								<a class="nav-link active" href="#inicio">Início</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Sobre nós</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Serviços</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contato">Contato</a>
-							</li>
-						</ul>
-					</div>
+				<nav>
+					<nav class="nav-extended">
+						<div class="nav-wrapper" style="background-color: #1565c0">
+							<a href="#inicio" class="brand-logo">
+								<img
+									src="assets/img/logo.png"
+									alt="cglimaLogo"
+									style="width: 150px; height: 50px"
+								/>
+							</a>
+							<a href="#" data-target="mobile-demo" class="sidenav-trigger"
+								><i class="material-icons">menu</i></a
+							>
+							<ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="#inicio">Início</a></li>
+								<li><a href="#sobrenos">Quem somos</a></li>
+								<li><a href="#servicos">Serviços</a></li>
+								<li><a href="#contato">Contato</a></li>
+							</ul>
+						</div>
+					</nav>
 				</nav>
 			</div>
+			<ul class="sidenav" id="mobile-demo">
+				<img
+					src="assets/img/logo.png"
+					alt="cglimaLogo"
+					style="width: 300px; height: 200px"
+				/>
+				<li><a href="#inicio">Início</a></li>
+				<li><a href="#sobrenos">Quem somos</a></li>
+				<li><a href="#servicos">Serviços</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
 		</header>
 		<main>
+			<!--carousel-->
+
 			<div class="parallax-container">
-				<div class="parallax"><img src="assets/img/bgCaminhao.jpg" /></div>
-			</div>
-			<div class="section white" id="teste">
-				<div class="card" style="width: 90%">
-					<div class="card-body">
-						<div class="row container">
-							<h2 class="header">
-								Em construção! Em breve teremos novidades por aqui...
-							</h2>
-							<div class="preloader-wrapper big active">
-								<div class="spinner-layer spinner-red-only">
-									<div class="circle-clipper left">
-										<div class="circle"></div>
-									</div>
-									<div class="gap-patch">
-										<div class="circle"></div>
-									</div>
-									<div class="circle-clipper right">
-										<div class="circle"></div>
-									</div>
-								</div>
+				<div class="parallax">
+					<img src="assets/img/bgCaminhao.jpg" />
+					<div class="row d-flex justify-content-center">
+						<div
+							class="card mt-5 text-center"
+							style="
+								background-color: rgba(255, 255, 255, 0.548);
+								width: 50%;
+								color: darkblue;
+							"
+						>
+							<h1>Seja bem vindo a CGLima Transportes!</h1>
+						</div>
+						<div
+							class="card"
+							style="background-color: rgba(255, 255, 255, 0.877); width: 80%"
+						>
+							<div class="card-body">
+								<h5 class="card-title">Sobre nós:</h5>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+									quidem, debitis sequi dolores unde consectetur rerum possimus ipsa eum
+									magni nisi nostrum error repellendus, reiciendis perferendis. Nemo
+									voluptates dolorum deleniti!
+								</p>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita
+									exercitationem sapiente voluptas quasi natus nam aliquam nostrum ut
+									culpa, accusantium beatae quaerat obcaecati reiciendis voluptates
+									mollitia cum commodi autem. Quis?
+								</p>
+								<p>
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae
+									quam pariatur laudantium assumenda officiis totam consequuntur illo
+									dolorum eaque ducimus ipsum eligendi quod architecto et, ea natus a
+									fugit harum.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+									minima perferendis delectus assumenda vero exercitationem atque
+									veritatis, iure hic, temporibus quod maxime recusandae earum harum
+									explicabo ad voluptatibus in? Aliquid.
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="parallax-container">
-				<div class="parallax"><img src="assets/img/bgCaminhao1.jpg" /></div>
-			</div>
+			<h6 class="card-text text-center mt-5 mb-3">
+				Confira no Google Maps nosso endereço:
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15936.004520113414!2d-59.9384627!3d-3.0943575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da3883306d66a29!2sCG%20Lima%20Transportes!5e0!3m2!1spt-BR!2sbr!4v1672862264992!5m2!1spt-BR!2sbr"
+					width="95%"
+					height="300"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</h6>
 		</main>
 		<footer class="page-footer" id="contato" style="background-color: #1565c0">
 			<div class="container">
 				<div class="row">
 					<div class="col l6 s12">
-						<h5 class="white-text">Contate-nos</h5>
-						<p class="grey-text text-lighten-4">
-							Clique o botão do whatsapp e fale diretamente conosco
-						</p>
+						<a href="https://goo.gl/maps/MD7qmaTgpEm3pxSu6" target="_blank">
+							<h5>Endereço: Av. Itacolomy, 1500</h5></a
+						>
+						<br />
+						<p>Armando Mendes, Manaus - AM</p>
+						<p>69089-321</p>
 					</div>
 					<div class="col l4 offset-l2 s12">
-						<h5 class="white-text">Externos:</h5>
+						<h5 class="white-text">Contate-nos:</h5>
 						<ul>
-							<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-							<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-							<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-							<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+							<li><br /></li>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="mailto:escritorio@cglimatransportes.com.br"
+									>escritorio@cglimatransportes.com.br</a
+								>
+							</li>
+							<li><br /></li>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="https://wa.me/5592984680502"
+									target="_blank"
+									>(92)984680502</a
+								>
+							</li>
+							<li><br /></li>
+							<li>
+								<a class="grey-text text-lighten-3" href="#contato">(92)30163723</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -117,7 +172,7 @@
 			<div class="footer-copyright">
 				<div class="container">
 					2023 - CGLima Transportes
-					<a class="grey-text text-lighten-4 right" href="#!">Creditos</a>
+					<a class="grey-text text-lighten-4 right" href="#contato">Creditos</a>
 				</div>
 			</div>
 		</footer>
