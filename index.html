@@ -1,378 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="assets/img/cglima.png" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>CGLima Transportes</title>
-		<!--Import Google Icon Font-->
-		<link
-			href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet"
-		/>
-		<!--Import materialize.css-->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-		/>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-		/>
-		<link rel="stylesheet" href="assets/css/style.css" />
-	</head>
-	<body>
-		<header id="inicio">
-			<div class="navbar-fixed">
-				<nav>
-					<nav class="nav-extended">
-						<div class="nav-wrapper" style="background-color: #1565c0">
-							<a href="index.html" class="brand-logo">
-								<img
-									src="assets/img/logo.png"
-									alt="cglimaLogo"
-									style="width: 150px; height: 50px"
-								/>
-							</a>
-							<a href="#" data-target="mobile-demo" class="sidenav-trigger"
-								><i class="material-icons">menu</i></a
-							>
-							<ul id="nav-mobile" class="right hide-on-med-and-down">
-								<li><a href="#sobrenos">Quem somos</a></li>
-								<li><a href="#servicos">Serviços</a></li>
-								<li><a href="#contato">Contato</a></li>
-							</ul>
-						</div>
-					</nav>
-				</nav>
-			</div>
-			<ul class="sidenav" id="mobile-demo">
-				<img
-					src="assets/img/logo.png"
-					alt="cglimaLogo"
-					style="width: 300px; height: 200px"
-				/>
-				<li><a href="#sobrenos">Quem somos</a></li>
-				<li><a href="#servicos">Serviços</a></li>
-				<li><a href="#contato">Contato</a></li>
-			</ul>
-		</header>
-		<main>
-			<div class="parallax-container" id="sobrenos">
-				<div class="parallax">
-					<img src="assets/img/paralax3.jpg" />
-					<div class="row d-flex justify-content-center">
-						<div
-							class="card mt-5"
-							style="
-								background-color: rgba(255, 255, 255, 0.692);
-								color: darkblue;
-								min-width: 300px;
-								max-width: 900px;
-							"
-						>
-							<div class="card-body">
-								<div class="card-title">
-									<h1>
-										Bem vindo a CGLima! <br />
-										<i class="small material-icons">local_shipping</i>
-										<i class="small material-icons">rv_hookup</i>
-										<i class="small material-icons">local_airport</i>
-										<i class="small material-icons">rv_hookup</i>
-										<i class="small material-icons">local_shipping</i>
-										<i class="small material-icons">rv_hookup</i>
-										<i class="small material-icons">directions_boat</i>
-									</h1>
-								</div>
-								<h2>Quem somos:</h2>
-								<p class="card-text">
-									A CGLima Transportes, localizada no bairro Armando Mendes, em Manaus-AM
-									foi fundada em 2015. Trabalhamos com transporte rodoviário de carga
-									intermunicipal, interestadual e internacional.
-								</p>
-								<p>
-									Nascemos com a missão de oferecer o melhor serviço de transporte de
-									cargas, de maneira prática e segura, oferecemos aos clientes o melhor
-									custo benefício da região.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<h1
-				id="servicos"
-				class="card-text text-center mt-5 mb-0"
-				style="
-					background-color: #1e88e5;
-					color: white;
-					height: 80px;
-					padding-top: 20px;
-				"
-			>
-				<strong>Confira alguns de nossos serviços:</strong>
-			</h1>
-			<div class="row"
-				 style="max-width: 800px;
-				 	    margin: auto;
-				 ">
-				<div
-					id="cardService"
-					class="card grey mt-3 mb-3"
-					style="width: 300px; margin: auto"
-				>
-					<div class="card-image waves-effect waves-block waves-blue-grey darken-1">
-						<img class="activator mt-3" src="assets/img/cargasGerais.jpg" />
-					</div>
-					<div class="card-content">
-						<span class="card-title activator white-text text-darken-4"
-							>Transporte rodoviário de cargas gerais<i class="material-icons right"
-								>more_vert</i
-							></span
-						>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4"
-							>Atuamos com coletas e entregas em todos nos Portos, Aeroportos e EADI de
-							toda a região Norte, coleta e entrega com a mesma qualidade no Distrito
-							Industrial e (CDs) Centros de Distribuição.<i
-								class="material-icons right"
-								>close</i
-							></span
-						>
-					</div>
-				</div>
-				<div
-					id="cardService"
-					class="card grey mt-3 mb-3"
-					style="width: 300px; margin: auto"
-				>
-					<div class="card-image waves-effect waves-block waves-blue-grey darken-1">
-						<img class="activator mt-3" src="assets/img/impExp.jpg" />
-					</div>
-					<div class="card-content">
-						<span class="card-title activator white-text text-darken-4"
-							>Transporte rodoviário de mercadorias para Importação e Exportação<i
-								class="material-icons right"
-								>more_vert</i
-							></span
-						>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4"
-							>Atuamos com coletas e entregas em todos nos Portos, Aeroportos e EADI de
-							toda a região Norte, coleta e entrega com a mesma qualidade no Distrito
-							Industrial e (CDs) Centros de Distribuição.<i
-								class="material-icons right"
-								>close</i
-							></span
-						>
-					</div>
-				</div>
-				<div
-					id="cardService"
-					class="card grey mt-3 mb-3"
-					style="width: 300px; margin: auto"
-				>
-					<div class="card-image waves-effect waves-block waves-blue-grey darken-1">
-						<img class="activator mt-3" src="assets/img/cargaEspecial.jpg" />
-					</div>
-					<div class="card-content">
-						<span class="card-title activator white-text text-darken-4"
-							>Transporte rodoviário de cargas delicadas<i class="material-icons right"
-								>more_vert</i
-							></span
-						>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4"
-							>O cuidado e compromisso da coleta a entrega no menor tempo possível e
-							com qualidade. Transporte de cargas especiais, excedentes e indivisíveis.
-							Entrega, coleta e transferências de produtos perigosos (sob consulta) com
-							qualidade e segurança.<i class="material-icons right">close</i></span
-						>
-					</div>
-				</div>
-			</div>
-			<div class="row mt-1"
-						style="max-width: 900px;
-				 	    	   margin: auto;	 
-						">
-				<div
-					id="cardService"
-					class="card grey mt-3 mb-3"
-					style="width: 300px; margin: auto"
-				>
-					<div class="card-image waves-effect waves-block waves-blue-grey darken-1">
-						<img class="activator mt-3" src="assets/img/cargaEspecial1.jpg" />
-					</div>
-					<div class="card-content">
-						<span class="card-title activator white-text text-darken-4"
-							>Transporte rodoviário de cargas especiais<i class="material-icons right"
-								>more_vert</i
-							></span
-						>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4"
-							>O cuidado e compromisso da coleta a entrega no menor tempo possível e
-							com qualidade. Transporte de cargas especiais, excedentes e indivisíveis.
-							Entrega, coleta e transferências de produtos perigosos (sob consulta) com
-							qualidade e segurança.<i class="material-icons right">close</i></span
-						>
-					</div>
-				</div>
-				<div
-					id="cardService"
-					class="card grey mt-3 mb-3"
-					style="width: 300px; margin: auto"
-				>
-					<div class="card-image waves-effect waves-block waves-blue-grey darken-1">
-						<img class="activator mt-3" src="assets/img/armazem.jpg" />
-					</div>
-					<div class="card-content">
-						<span class="card-title activator white-text text-darken-4"
-							>Transporte rodoviário de alimetos e bebidas<i
-								class="material-icons right"
-								>more_vert</i
-							></span
-						>
-					</div>
-					<div class="card-reveal">
-						<span class="card-title grey-text text-darken-4"
-							>Atuamos com coletas e entregas em todos nos Portos, Aeroportos e EADI de
-							toda a região Norte, entregamos em todas as redes de atacados e
-							supermercados<i class="material-icons right">close</i></span
-						>
-					</div>
-				</div>
-			</div>
-			<h1
-				class="card-text text-center mt-5 mb-0"
-				style="background-color: #90caf9; color: darkgreen"
-			>
-				Você sabia?
-			</h1>
-			<div class="parallax-container">
-				<div class="parallax">
-					<img src="assets/img/paralax0.jpg" />
-					<div class="row d-flex justify-content-center">
-						<div
-							class="card mt-5"
-							style="
-								background-color: rgba(255, 255, 255, 0.815);
-								max-width: 900px;
-								color: darkgreen;
-							"
-						>
-							<div class="card-body">
-								<p>
-									Apesar de já existir no Brasil há algumas décadas, a logística só
-									ganhou maturidade comercial nos anos 1990. Sabe por quê? Porque foi
-									nessa época que a redução de alíquotas de importação entrou em vigor no
-									país. Outra curiosidade que apontamos, é referente a ampla malha
-									rodoviária no Brasil. Atualmente o país é o quarto maior em extensão
-									territorial do mundo, ficando atrás apenas de Estados Unidos, China e
-									Índia. Sendo assim, são precisamente mais de 1,7 milhões de quilômetros
-									de rodovias, o que facilita a distribuição por meio do modal
-									rodoviário. Por isso, que este é mais utilizado para o transporte de
-									cargas, sendo estimado que 60% das mercadorias sejam transportadas por
-									meio desse modal. Mas, apesar da extensa área territorial, a
-									infraestrutura deixa muito a desejar, pois apenas 200 mil quilômetros
-									de rodovias são pavimentadas. Com isso, prejudica algumas operações do
-									transporte rodoviário, tornando rotas mais longas e inseguras.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section white">
-				<h6 class="card-text text-center mt-5 mb-5">
-					<p>
-						<strong>
-							É fácil encontrar agente, nosso escritório fica próximo ao distrito
-							industrial. Confira no Google Maps nossa localização e use seu app
-							preferido para criar uma rota:
-						</strong>
-						<br /><br />
-					</p>
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15936.004520113414!2d-59.9384627!3d-3.0943575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da3883306d66a29!2sCG%20Lima%20Transportes!5e0!3m2!1spt-BR!2sbr!4v1672862264992!5m2!1spt-BR!2sbr"
-						width="80%"
-						height="300"
-						style="border: 0"
-						allowfullscreen=""
-						loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"
-					></iframe>
-				</h6>
-			</div>
-		</main>
-		<footer class="page-footer" id="contato" style="background-color: #1565c0">
-			<div class="container">
-				<div class="row">
-					<div class="col l6 s12">
-						<h5>Endereço: Av. Itacolomy, 1500</h5>
-						<br />
-						<p>Armando Mendes, Manaus - AM</p>
-						<p>69089-321</p>
-					</div>
-					<div class="col l4 offset-l2 s12">
-						<h5 class="white-text">Contate-nos:</h5>
-						<ul>
-							<li><br /></li>
-							<li>
-								<a
-									class="grey-text text-lighten-3"
-									href="mailto:escritorio@cglimatransportes.com.br"
-									>escritorio@cglimatransportes.com.br</a
-								>
-							</li>
-							<li><br /></li>
-							<li>
-								<a
-									class="grey-text text-lighten-3"
-									href="https://wa.me/5592984680502"
-									target="_blank"
-									>(92)984680502</a
-								>
-							</li>
-							<li><br /></li>
-							<li>
-								<a class="grey-text text-lighten-3" href="#contato">(92)30163723</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer-copyright">
-				<div class="container">
-					2023 - CGLima Transportes
-					<a
-						class="grey-text text-lighten-4 right"
-						href="https://danielribeiro.dev.br"
-						target="_blank"
-						>Desenvolvido por:&nbsp;&nbsp;<strong>danielribeiro.dev.br</strong>
-					</a>
-				</div>
-			</div>
-		</footer>
-		<a id="linkWhatsapp" href="https://wa.me/5592984680502" target="_blank">
-			<i style="margin-top: 16px" class="fa fa-whatsapp"></i>
-		</a>
-		<!--JavaScript at end of body for optimized loading-->
-		<script
-			type="text/javascript"
-			src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
-		></script>
-		<script type="text/javascript" src="assets/js/script.js"></script>
-	</body>
+<html lang="ept-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>CGLima Transportes</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/cglima.png" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg fixed-bottom" id="navbar">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#home">CGLima Transpostes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <a href="http://danielribeiro.dev.br" target="_blank">danielribeiro.dev.br</a>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <section id="home">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6">
+                        <img class="imglogo" src="/assets/img/logo.png" alt="cglima">
+                        <h1 class="mt-5">Bem vindo(a) a nossa tranportadora...</h1>
+                        <p>
+                            A CGLima Transportes, localizada no bairro Armando Mendes, em Manaus-AM
+                            foi fundada em 2015. Trabalhamos com transporte rodoviário de carga
+                            intermunicipal, interestadual e internacional.
+                            Nascemos com a missão de oferecer o melhor serviço de transporte de
+                            cargas, de maneira prática e segura, oferecemos aos clientes o melhor
+                            custo benefício da região.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <h1>Confira alguns dos nossos serviços prestados...</h1>
+                        <ul>
+                            <li>Transporte rodoviário de mercadorias para Importação e Exportação</li>
+                            <li>Transporte rodoviário de cargas gerais</li>
+                            <li>Transporte rodoviário de cargas delicadas</li>
+                            <li>Transporte rodoviário de cargas especiais</li>
+                            <li>Transporte rodoviário de alimetos e bebidas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="curiosidade">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6">
+                        <h1>Curiosidade do modal...</h1>
+                        <p>
+                            Apesar de já existir no Brasil há algumas décadas, a logística só
+                            ganhou maturidade comercial nos anos 1990. Sabe por quê? Porque foi
+                            nessa época que a redução de alíquotas de importação entrou em vigor no
+                            país. Outra curiosidade que apontamos, é referente a ampla malha
+                            rodoviária no Brasil. Atualmente o país é o quarto maior em extensão
+                            territorial do mundo, ficando atrás apenas de Estados Unidos, China e
+                            Índia. Sendo assim, são precisamente mais de 1,7 milhões de quilômetros
+                            de rodovias, o que facilita a distribuição por meio do modal
+                            rodoviário. Por isso, que este é mais utilizado para o transporte de
+                            cargas, sendo estimado que 60% das mercadorias sejam transportadas por
+                            meio desse modal. Mas, apesar da extensa área territorial, a
+                            infraestrutura deixa muito a desejar, pois apenas 200 mil quilômetros
+                            de rodovias são pavimentadas. Com isso, prejudica algumas operações do
+                            transporte rodoviário, tornando rotas mais longas e inseguras. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6"></div>
+                    <div class="col-lg-6">
+                        <h1>Entre em contato conosco...</h1>
+                        <h4>
+                            <a href="mailto:escritorio@cglimatransportes.com.br" target="_blank">
+                                escritorio@cglimatransportes.com.br
+                            </a>
+                        </h4>
+                        <h4>
+                            <a href="http://wa.me/5592984680502" target="_blank">
+                                whatsapp e ligação: (92)98468-0502
+                            </a>
+                        </h4>
+                        <p>
+                            É fácil encontrar agente, nosso escritório fica próximo ao distrito
+                            industrial. Confira no Google Maps nossa localização e use seu app
+                            preferido para criar uma rota:
+                        </p>
+                    </div>
+                </div>
+                <div class="row gx-4 gx-lg-5">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15936.004520113414!2d-59.9384627!3d-3.0943575!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5da3883306d66a29!2sCG%20Lima%20Transportes!5e0!3m2!1spt-BR!2sbr!4v1672862264992!5m2!1spt-BR!2sbr"
+                    width="80%"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </div>
+        </section>
+              
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
